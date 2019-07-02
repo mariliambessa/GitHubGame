@@ -22,7 +22,7 @@ $(document).ready(function(){
         }); //de onde quero tirar o JSON? url + o que foi digitado no input
          //retorna a url do avatar do input quando clicar
         
-        function addUser(user){
+        const addUser = (user) => {
             $("#add-data").append(`
                 <div class="col-sm-3 mb-3">  
                     <div class="card" style="width: 100%;">
